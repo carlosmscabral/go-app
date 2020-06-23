@@ -25,4 +25,5 @@ func index(w http.ResponseWriter, req *http.Request) {
 	if err != nil {
 		log.Fatalln("error executing template", err)
 	}
+	log.Print("Hey, you've hit index.html. Congrats!")
 }
