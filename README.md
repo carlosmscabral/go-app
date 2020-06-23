@@ -1,8 +1,3 @@
-### Example: Getting started with a simple go app
+### ANTHOSDEV-01 - Go App for demonstrating Skaffold
 
-This is a simple example based on:
-
-* **building** a single Go file app and with a multistage `Dockerfile` using Google Cloud Build
-* **tagging** using the default tagPolicy (`gitCommit`)
-* **deploying** a single container pod using `kubectl`
-lala
+Install Skaffold - then skaffold init and skaffold dev - and be happy :)
